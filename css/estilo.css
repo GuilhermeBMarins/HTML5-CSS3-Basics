@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#div-Principal{
+    width: 1024px;
+    margin: 30px auto;
+}
+
+.header-topo{
+    background-color: rgb(22, 32, 40);
+    height: 50px;
+    position: relative;
+}
+
+.logotipo-topo{
+    margin-top: 8px;
+    margin-left: 170px;
+}
+
+.nav-header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nav-header ul li{
+    display: inline-block;
+    padding-right: 30px;
+    margin-right: 40px;
+}
+
+.nav-header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: rgb(46, 70, 78);
+    
+}
+
+.nav-header ul li a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: color .5s linear;
+}
+
+.section-Portifolio h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-Portifolio p{
+    text-align: center;
+    margin: 0 40px 50px 40px;
+    font-size: 18.4px;
+    line-height: 1.8;
+    color: #777;
+}
+
+.div-gallery{
+    display: inline-block;
+    width: calc(33% - 16px);
+    margin: 8px;
+}
+
+.div-gallery img{
+    padding-left: 35px;
+}
+
+.div-gallery h3, p{
+    margin-top: 5px;
+    text-align: center;
+}
+
+article{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+article h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+article p{
+    line-height: 1.5;
+    width: 70%;
+    text-align: left;
+}
+
+.section-contact{
+    margin: 30px 0 30px 0;
+}
+
+.section-contact p{
+    margin: 0;
+    font-size: 30px;
+    color: #003d52;
+    font-weight: bolder;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+footer{
+    margin: 30px 0 30px 0;
+    background-color: #0b171f;
+    height: 50px;
+    color: #6f8597;
+}
+
+footer p{
+    padding-top: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
